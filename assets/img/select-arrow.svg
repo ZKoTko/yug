@@ -1,0 +1,12 @@
+<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_2086_5392" fill="white">
+<path d="M0.5 0H10.5V6H0.5V0Z"/>
+</mask>
+<g clip-path="url(#paint0_diamond_2086_5392_clip_path)" data-figma-skip-parse="true" mask="url(#path-1-inside-1_2086_5392)"><g transform="matrix(0.005 0 0 0.006 5.5 0)"><rect x="0" y="0" width="1200" height="1166.67" fill="url(#paint0_diamond_2086_5392)" opacity="1" shape-rendering="crispEdges"/><rect x="0" y="0" width="1200" height="1166.67" transform="scale(1 -1)" fill="url(#paint0_diamond_2086_5392)" opacity="1" shape-rendering="crispEdges"/><rect x="0" y="0" width="1200" height="1166.67" transform="scale(-1 1)" fill="url(#paint0_diamond_2086_5392)" opacity="1" shape-rendering="crispEdges"/><rect x="0" y="0" width="1200" height="1166.67" transform="scale(-1)" fill="url(#paint0_diamond_2086_5392)" opacity="1" shape-rendering="crispEdges"/></g></g><path d="M0.5 0V-6H-4.5V0H0.5ZM10.5 0H15.5V-6H10.5V0ZM0.5 6H10.5V-6H0.5V6ZM5.5 0V6H15.5V0H5.5ZM5.5 6V0H-4.5V6H5.5Z" data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_DIAMOND&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.20000000298023224,&#34;g&#34;:0.20000000298023224,&#34;b&#34;:0.20000000298023224,&#34;a&#34;:1.0},&#34;position&#34;:0.99999988079071045},{&#34;color&#34;:{&#34;r&#34;:0.0,&#34;g&#34;:0.0,&#34;b&#34;:0.0,&#34;a&#34;:0.0},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.20000000298023224,&#34;g&#34;:0.20000000298023224,&#34;b&#34;:0.20000000298023224,&#34;a&#34;:1.0},&#34;position&#34;:0.99999988079071045},{&#34;color&#34;:{&#34;r&#34;:0.0,&#34;g&#34;:0.0,&#34;b&#34;:0.0,&#34;a&#34;:0.0},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:10.0,&#34;m01&#34;:0.0,&#34;m02&#34;:0.50,&#34;m10&#34;:0.0,&#34;m11&#34;:12.0,&#34;m12&#34;:-6.0},&#34;opacity&#34;:1.0,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}" mask="url(#path-1-inside-1_2086_5392)"/>
+<defs>
+<clipPath id="paint0_diamond_2086_5392_clip_path"><path d="M0.5 0V-6H-4.5V0H0.5ZM10.5 0H15.5V-6H10.5V0ZM0.5 6H10.5V-6H0.5V6ZM5.5 0V6H15.5V0H5.5ZM5.5 6V0H-4.5V6H5.5Z" mask="url(#path-1-inside-1_2086_5392)"/></clipPath><linearGradient id="paint0_diamond_2086_5392" x1="0" y1="0" x2="500" y2="500" gradientUnits="userSpaceOnUse">
+<stop offset="1" stop-color="#333333"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
