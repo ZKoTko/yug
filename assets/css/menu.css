@@ -1,0 +1,38 @@
+.menu-wrapper {
+    background: #fff;
+}
+.top-menu-items {
+    color: #1D1D1D;
+}
+.top-menu-info-item p {
+    color: #1D1D1D;
+}
+.top-menu-contacts-phone a {
+    color: #1D1D1D;
+}
+.main-menu-item a {
+    color: #1D1D1D;
+}
+.main-menu-item {
+    border-right: 1px solid #DFDFDF;
+}
+.main-menu {
+    padding-bottom: 16px;
+}
+.main-menu-active a{
+    font-weight: 600;
+    color: #008641;
+}
+.call-menu-dropdown svg path{
+    fill: #1D1D1D;
+}
+.main-menu-item a {
+    user-select: none;
+}
+.main-banner {
+    max-width: unset;
+}
+.main-banner {
+    height: auto;
+}
+

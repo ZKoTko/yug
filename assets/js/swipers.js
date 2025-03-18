@@ -11,3 +11,13 @@ var swiper = new Swiper('.docs-swiper', {
         },
     },       
 });
+
+var swiper = new Swiper('.services-slider', {
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    loop: false,
+    navigation: {
+        nextEl: '.services-slider-arrow-right',
+        prevEl: '.services-slider-arrow-left',
+    },
+});

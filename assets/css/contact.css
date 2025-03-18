@@ -1,0 +1,160 @@
+header {
+    margin-bottom: 60px;
+}
+.contact-page-title {
+    font-family: 'AtypDisplay';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
+.contact-page-wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.contact-page-map {
+    width: 100%;
+    height: 470px;
+    background: #333;
+    border-radius: 7px;
+    border: 0.85px solid #EDEDED;
+    max-width: 550px;
+}
+.contact-page-img {
+    width: 100%;
+    height: 410px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    min-width: 550px;
+    max-width: 550px;
+}
+.contact-page-items {
+    display: flex;
+    gap: 50px;
+}
+.contact-page-item {
+    margin-bottom: 10px;
+}
+.contact-page-item p{
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999999;    
+    margin-bottom: 4px;
+}
+.contact-page-item h6 {
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.52px;
+    color: #222222;
+    margin-bottom: 0;
+}
+.contact-page-buttons-wrapper button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+.contact-page-buttons-wrapper button {
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out;
+}
+
+.contact-page-buttons-wrapper button:after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -75px;
+    width: 50px;
+    height: 155px;
+    background: rgba(0, 134, 65, 0.3);
+    transform: rotate(35deg);
+    transition: all 0.55s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.contact-page-buttons-wrapper button:hover:after {
+    left: 120%;
+}
+
+.contact-page-buttons-wrapper{
+    display: flex;
+    gap: 4px;
+    margin-top: 16px;
+}
+.contact-page-buttons-item p{
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #999999;    
+    margin-bottom: 4px;
+}
+.contact-page-buttons-item h6 {
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.52px;
+    color: #222222;
+    margin-bottom: 0;
+}
+.contact-page-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contact-page-items-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.contact-page-items {
+    margin-bottom: 40px;
+}
+.contact-page-text {
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+.contact-page-main-btn {
+    width: 265px;
+    height: 60px;
+    border: 1px solid #008641;
+    border-radius: 8px;
+    background: #fff;
+    font-family: 'AtypText', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #008641;
+}
+.contact-page-main-btn {
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out;
+}
+.contact-page-main-btn:after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -75px;
+    width: 50px;
+    height: 155px;
+    background: rgba(0, 134, 65, 0.3);
+    transform: rotate(35deg);
+    transition: all 0.55s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.contact-page-main-btn:hover:after {
+    left: 120%;
+}

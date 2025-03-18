@@ -1,0 +1,297 @@
+header {
+    margin-bottom: 60px;
+}
+.services-banner-content {
+    height: 520px;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.services-banner-gradient {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: linear-gradient(99.48deg, rgba(0, 32, 16, 0.7) -4.02%, rgba(0, 134, 65, 0.7) 100%);
+    z-index: 1;
+}
+.services-banner-text {
+    padding-top: 105px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.services-banner-text h1 {
+    font-family: 'AtypDisplay';
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 14px;
+}
+.services-banner-text p {
+    font-family: 'AtypText', sans-serif;
+    max-width: 510px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 48px;
+}
+.services-banner-bar {
+    padding: 7px 21px;
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+    background: #008641;
+    border-radius: 5px;
+    width: fit-content;
+}
+.services-form-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.services-form-title h2 {
+    font-family: 'AtypDisplay';
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+    margin-bottom: 0;
+}
+.services-form-title p {
+    font-family: 'AtypDisplay';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000000;
+    margin-bottom: 0;
+}
+.services-decs-content {
+    font-family: 'AtypText', sans-serif;
+    color: #000000;
+}
+.services-decs-content h2 {
+    font-family: 'AtypDisplay';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 36.8px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+.services-decs-content h3 {
+    font-family: 'AtypDisplay';
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+.services-decs-content h6 {
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.9px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 60px;
+}
+.services-decs-content p {
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.services-decs-content img {
+    max-width: 100%;
+}
+.services-decs-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+.services-decs-content li {
+    font-family: 'AtypText', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 25px;
+}
+.services-decs-content li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 16px;
+    height: 16px; 
+}
+.services-desc-section {
+    margin-bottom: 120px;
+}
+.services-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.services-title h2 {
+    font-family: 'AtypDisplay';
+    font-size: 48px;
+    line-height: 86px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #333333;
+    font-weight: 600;
+}
+.services-title button {
+    border: 1px solid #008641;
+    width: 290px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    gap: 12px;
+    border-radius: 12px;
+    font-family: 'AtypText', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #008641;
+}
+.services-title button {
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease-in-out;
+}
+
+.services-title button:after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -75px;
+    width: 50px;
+    height: 155px;
+    background: rgba(0, 134, 65, 0.3);
+    transform: rotate(35deg);
+    transition: all 0.55s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.services-title button:hover:after {
+    left: 120%;
+}
+
+.services-title button img {
+    margin-top: 3px;
+}
+
+.services-slider .swiper-slide{
+    width: 212px;
+    height: 255px;
+}
+
+.autopark-item {
+    border-radius: 12px;
+    border: 1px solid #E9E3DE;
+    width: fit-content;
+    min-width: 213px;
+    margin-bottom: 20px;
+    height: 255px;
+    flex-grow: 1;
+    max-width: 214px;
+    cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.autopark-item:hover {
+    border: 1px solid #008641;
+}
+.autopark-item-text {
+    font-family: 'AtypText', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #222222;
+    padding-left: 20px;
+}
+.autopark-item-img {
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    width: 80%;
+}
+
+.autopark-item-order {
+    width: 100%;
+    background: #008641;
+    position: relative;
+    bottom: 0;
+    padding: 16px 0;
+    padding-left: 20px;
+    font-family: 'AtypText', sans-serif;
+    font-weight: 600;
+    font-size: 15.94px;
+    color: #fff;
+    transition: .3s;
+    transform: translateY(100%);
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+.autopark-item-content {
+    flex-grow: 1;
+}
+.autopark-item:hover .autopark-item-order {
+    transform: translateY(0);
+}
+.autopark-item a {
+    text-decoration: none;
+}
+.services-slider-section {
+    margin-bottom: 120px;
+}
+.services-slider-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.services-slider-title h2 {
+    font-family: 'AtypDisplay';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 36.8px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #000;
+    margin-bottom: 0;
+}
+.services-swiper-pagination {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.services-swiper-pagination img {
+    cursor: pointer;
+}
